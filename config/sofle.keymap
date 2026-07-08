@@ -31,57 +31,26 @@
 
 
                   bindings =
-            // u
-            <&kp U>
-
-            // N
-            , <&macro_press &kp LSHFT>
-            , <&kp N>
-            , <&macro_release &kp LSHFT>
-
-            // 3453
-            , <&kp N3>
-            , <&kp N4>
-            , <&kp N5>
-            , <&kp N3>
-
-            // _
-            , <&macro_press &kp LSHFT>
-            , <&kp MINUS>
-            , <&macro_release &kp LSHFT>
-
-            // cu
-            , <&kp C>
-            , <&kp U>
-
-            // R
-            , <&macro_press &kp LSHFT>
-            , <&kp R>
-            , <&macro_release &kp LSHFT>
-
-            // r5
-            , <&kp R>
-            , <&kp N5>
-
-            // _
-            , <&macro_press &kp LSHFT>
-            , <&kp MINUS>
-            , <&macro_release &kp LSHFT>
-
-            // 8
-            , <&kp N8>
-
-            // R
-            , <&macro_press &kp LSHFT>
-            , <&kp R>
-            , <&macro_release &kp LSHFT>
-
-            // 1dl3d
-            , <&kp N1>
-            , <&kp D>
-            , <&kp L>
-            , <&kp N3>
-            , <&kp D>; 
+            <&kp U>          // u
+            , <&kp LS(N)>    // N
+            , <&kp N3>       // 3
+            , <&kp N4>       // 4
+            , <&kp N5>       // 5
+            , <&kp N3>       // 3
+            , <&kp LS(MINUS)>// _
+            , <&kp C>        // c
+            , <&kp U>        // u
+            , <&kp LS(R)>    // R
+            , <&kp R>        // r
+            , <&kp N5>       // 5
+            , <&kp LS(MINUS)>// _
+            , <&kp N8>       // 8
+            , <&kp LS(R)>    // R
+            , <&kp N1>       // 1
+            , <&kp D>        // d
+            , <&kp L>        // l
+            , <&kp N3>       // 3
+            , <&kp D>;       // d
         };
     };
 
